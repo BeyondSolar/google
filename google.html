@@ -5,6 +5,7 @@
     <title>
         Google
     </title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .center {
             display: block;
@@ -14,20 +15,41 @@
             margin-bottom: auto;
         }
 
-        input[type=text] {
+        .form {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
+            margin-left: 490px;
+            margin-right:auto;
+            margin-top: 30px;
+            margin-bottom: auto;
         }
-
-        This is in the forms branch
+        .form input{
+            border-style:solid;
+            border-width:1px;
+            border-radius: 25px;
+            border-color:rgb(216, 218, 219);
+            width:500px;
+            height: 40px;
+            padding-left:50px;
+        }
     </style>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="account">Account</div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="https://mail.google.com/">Gmail</a></li>
+                <li><a href="https://www.google.co.in/imghp?hl=en">Images</a></li>
+                <li><a href="https://www.google.co.in/intl/en/about/products">Apps</a></li>
+            </ul>
+        </div>
+    </nav>
     <img src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center">
     <form action="https://google.com/search">
-    <input type="text" name="q">
+        <div class="form">
+            <input type="text" name="q">
+        </div>
     </form>
 
 </body>
