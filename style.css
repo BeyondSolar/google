@@ -1,27 +1,34 @@
 *{
     box-sizing: border-box;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 161px;
-    margin-bottom: auto;
+.image {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:101px;
+}
+
+.center{
+    height:100%;
+    margin-top:auto;
 }
 
 .form {
-    display: block;
-    margin-left: 490px;
-    margin-right:auto;
-    margin-top: 30px;
-    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    padding-left:14px;
+    padding-right: 8px;
+    padding-top: 5px;
 }
 .form input{
+    outline: none;
     border-style:solid;
     border-width:1px;
     border-radius: 25px;
     border-color:rgb(216, 218, 219);
-    width:500px;
-    height: 40px;
-    padding-left:50px;
+    width:580px;
+    height: 45px;
+    padding-left: 15px;
 }
