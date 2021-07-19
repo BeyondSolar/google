@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 161px;
+    margin-bottom: auto;
+}
+
+.form {
+    display: block;
+    margin-left: 490px;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+.form input{
+    border-style:solid;
+    border-width:1px;
+    border-radius: 25px;
+    border-color:rgb(216, 218, 219);
+    width:500px;
+    height: 40px;
+    padding-left:50px;
+}
