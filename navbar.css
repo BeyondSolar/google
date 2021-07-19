@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: flex-end;
+    margin:3px;
+}
+
+.navbar-links ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+.navbar-links li{
+    list-style: none;
+    font-family:arial,sans-serif;
+    font-size:13px;
+    padding:0 0 0 15px;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color:black;
+    padding:16px;
+    display:block;
+}
+
+.navbar-links li:hover{
+    text-decoration: underline;
+}
