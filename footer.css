@@ -24,7 +24,7 @@
     list-style: none;
     padding:15px;
     font-family:arial,sans-serif;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 .footer-links a{
