@@ -1,0 +1,19 @@
+.location{
+    display:flex;
+    justify-content: flex-start;
+    background-color: rgba(230, 227, 227, 0.54);
+    position: absolute;
+    bottom: 46.8px;
+    width: 100%;
+    border-bottom:1px solid #dadce0
+}
+
+.location p{
+    display: block;
+    padding:0px 30px;
+    font-family:arial,sans-serif;
+    font-size: 15px;
+    color:rgba(0,0,0,.54);
+}
+
+
