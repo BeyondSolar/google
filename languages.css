@@ -1,0 +1,19 @@
+.languages{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color:#3c4043;
+    font-family: arial,sans-serif;
+    padding:15px
+}
+
+.languages li{
+    list-style: none;
+    padding: 0px 3px;
+    font-size: 13px;
+}
+
+.languages a{
+    color: #1a0dab;
+    text-decoration: none;
+}
